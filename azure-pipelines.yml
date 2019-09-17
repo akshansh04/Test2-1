@@ -3,12 +3,12 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-resources:
- repositories:
-   - repository: team1
-     type: GitHub
-     endpoint: akshansh04
-     name: akshansh04/Repo1
+# resources:
+#  repositories:
+#    - repository: team1
+#      type: GitHub
+#      endpoint: akshansh04
+#      name: akshansh04/Repo1
 
 jobs:
  - deployment: deploy
