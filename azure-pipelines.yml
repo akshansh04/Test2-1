@@ -5,10 +5,10 @@
 
 resources:
  repositories:
-   - repository: R1
+   - repository: team1
      type: GitHub
-     endpoint: MyGithubConnection
-     name: jainamanjain/Repo1
+     endpoint: akshansh04
+     name: akshansh04/Repo1
 
 jobs:
  - deployment: deploy
