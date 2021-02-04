@@ -35,7 +35,7 @@ jobs:
 #             ls $(Build.ArtifactStagingDirectory)/
  - job: J2
    pool:
-    name: newtrial
+    name: Aksriv
    steps:
       - task: PublishBuildArtifacts@1
         inputs:
